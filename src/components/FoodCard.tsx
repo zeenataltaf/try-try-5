@@ -21,6 +21,7 @@ export default function FoodCard({ food }: FoodCardProps) {
         alt={food.name}
         width={300}
         height={200}
+        priority
         className="rounded-xl h-40 w-full object-cover"
       />
 
